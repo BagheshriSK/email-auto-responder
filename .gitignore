@@ -1,0 +1,7 @@
+myenv/
+chroma*/
+data/
+token*.pickle
+credentials*.json
+.DS_Store
+__pycache__/

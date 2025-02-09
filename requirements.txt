@@ -1,0 +1,29 @@
+# Core Python Libraries
+argparse
+
+# LangChain and Related Libraries
+langsmith>=0.0.77,<0.2.0
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain[document_loaders]
+langgraph  # Added LangGraph
+
+# Document Processing
+pypdf
+docx2txt
+
+# Environment and Path Management
+python-dotenv
+pathlib
+
+# Google API Libraries
+google-api-python-client==2.102.0
+google-auth==2.22.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2
+
+# Additional Dependencies
+typing
+email-validator
