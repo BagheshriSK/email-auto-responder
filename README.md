@@ -59,13 +59,15 @@ credentials_secondary.json for secondary email account (send on behalf of accoun
 
 Add sales collateral:
 Place your sales documents in the data/directory
-# Supported formats: PDF, DOCX, TXT
+Supported formats: PDF, DOCX, TXT
 
 Initialize the vector store:
-```python fetch_context.py
+```
+python fetch_context.py
 ```
 
 Start the auto-responder:
-```python main.py --interval 30  # Checks for new emails every 30 seconds
+```
+python main.py --interval 30  # Checks for new emails every 30 seconds
 ```
 
